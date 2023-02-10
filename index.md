@@ -3684,22 +3684,22 @@ Et le voici après les modifications mentionnées plus haut sur OpenRefine :
 
 **2) Visualisations**
 
-:clapper:**Scatter plot des scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021**:clapper:
+:clapper: **Scatter plot des scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021** :clapper:
 
 Sur ce visuel dynamique, les films du jeu de donnée sont représentés par une étoile, dont on peut connaître l'année de sortie et le nombre d'entrées réalisées en passant par dessus avec le curseur. Ce visuel représente un excellent moyen de voir les films qui se détachent nettement des autres par leur performance en terme de chiffre, comme par exemple le film _Titanic_, tout en haut du graphique, avec 21 798 906 entrées.
 <iframe src='https://public.flourish.studio/visualisation/12691863/embed' title='Score réalisés par les films les plus populaires au cinéma en France de 1945 à 2021' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
 
-:movie_camera:**Pie charts: Répartition par année des plus gros succès et de leur chiffres au box office**:movie_camera:
+:movie_camera: **Pie charts: Répartition par année des plus gros succès et de leur chiffres au box office** :movie_camera:
    
 Ce visuel présente l'intérêt majeur de permettre un regard plus précis sur les données, en proposant une vision de l'année au choix, mais également des films et de leurs nombres d'entrées.
 <iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='no' style='width:600;height:450px;'></iframe>
 
-:film_projector:**Circle hierarchy - Vision globale des réalisateurs et des performances de leurs films dans les salles françaises**:film_projector:
+:film_projector: **Circle hierarchy - Vision globale des réalisateurs et des performances de leurs films dans les salles françaises** :film_projector:
 
 Comme pour le visuel précédent, cette hiéréarchie de siècle laisse le choix de consultation de la cellule au choix, cette foix pour les réalisateurs; nous avons ainsi une vue claire de leurs films ainsi que des chiffres réalisés. La vision élargie de tous les cercles permet aussi de constater les noms qui prennent le dessus sur les autres, comme ceux de Walt Disney ou de Steven Spielberg. En zoomant sur leurs cercles, on se rend compte qu'ils ont respectivement sept et huits films s'étant classés parmis les 200 films les plus vus au cinéma en France depuis 1945, mais aussi que chacun de leurs films ont dépassé la barre des 5 millions d'entrées.
 <iframe src='https://public.flourish.studio/visualisation/12706313/embed' title= 'Vision globale des réalisateurs et des performances de leurs films dans les salles françaises' frameborder='0' scrolling='yes' style='width:100%;height:800px;'></iframe>
   
-:film_strip: **Le Cinéma Français à l'international avec Wikidata Query Service**:film_strip: 
+:film_strip: **Le Cinéma Français à l'international avec Wikidata Query Service** :film_strip: 
    
 L'analyse de ces données laisse clairement transparaître l'enthousiasme des français pour le grand écran, tant du côté des spectateurs que de celui des créateurs. Cependant, elle soulève également d'autres questions. On pourrait par exemple se demander ce qu'il en est du succès - ou non - du cinéma français contemporain à l'international, en compaaison avec les autres pays. Pour obtenir des données pertinentes à ce sujet, il a fallu interroger la base de données Wikidata. J'ai formulé la requête suivante :
 ``` SPARQL
